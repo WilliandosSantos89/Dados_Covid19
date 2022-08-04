@@ -19,7 +19,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/wcota/covid19br/master/cases
 
 #MELHORANDO O NOME DAS COLUNAS DA TABELA
 
-df = df.rename(columns={'newDeaths': 'Novos Óbitos', 'newCases': 'Novos Casos', 'deaths_per_100k_in': 'Mortes por 100 Mil Habitantes' })
+df = df.rename(columns={'newDeaths': 'Novos Óbitos', 'newCases': 'Novos Casos', 'deaths_per_100k_in': 'Mortes por 100 Mil Habitantes', 'totalCases_per_100k_inhabitants':'Casos por 100 mil habitantes' })
 
 #SELEÇÃO DO ESTADO 
 
